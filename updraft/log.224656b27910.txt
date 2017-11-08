@@ -1,0 +1,187 @@
+0000.005 (0) Opened log file at time: Sun, 05 Feb 2017 12:41:29 +0000 on http://artseeninbcn2016.artssspot.com
+0001.567 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.2 PHP: 5.6.29 (cgi-fcgi, Linux box3120.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: ca Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.9M | 26.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.735 (0) Free space on disk containing Updraft's temporary directory: 368076.3 MB
+0001.739 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0001.740 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0001.893 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0001.896 (0) Set semaphore last lock (f) time to 2017-02-05 12:41:31
+0001.898 (0) Semaphore lock (f) complete
+0001.905 (0) Backup run: resumption=0, nonce=224656b27910, begun at=1486298489 (2s ago), job type=backup
+0001.907 (0) Scheduling a resumption (1) after 300 seconds (1486298791) in case this run gets aborted
+0001.953 (0) Checking if we have a zip executable available
+0001.954 (0) Testing: /usr/bin/zip
+0001.990 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.991 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.992 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.993 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.993 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.999 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0002.000 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0002.023 (0) Working binary zip found: /usr/bin/zip
+0002.038 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0002.039 (0) Creation of backups of directories: beginning
+0002.041 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.679 (0) Total entities for the zip file: 352 directories, 2465 files (0 skipped as non-modified), 32.8 MB
+0003.682 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.686 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.689 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.692 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.696 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.698 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 2465 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.506 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: size is now: 1.20 MB
+0005.511 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 600 files added (on-disk size: 1229.1 KB)
+0005.514 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 700 files added (on-disk size: 1229.1 KB)
+0005.517 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 800 files added (on-disk size: 1229.1 KB)
+0005.520 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 900 files added (on-disk size: 1229.1 KB)
+0005.523 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1000 files added (on-disk size: 1229.1 KB)
+0005.523 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 2465 files batched, 501 (1002) added so far); re-opening (prior size: 1229.1 KB)
+0007.823 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: size is now: 1.90 MB
+0007.835 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1100 files added (on-disk size: 1924.4 KB)
+0007.838 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1200 files added (on-disk size: 1924.4 KB)
+0007.841 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1300 files added (on-disk size: 1924.4 KB)
+0007.844 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1400 files added (on-disk size: 1924.4 KB)
+0007.847 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1500 files added (on-disk size: 1924.4 KB)
+0007.848 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.7 MB, 2465 files batched, 501 (1503) added so far); re-opening (prior size: 1924.4 KB)
+0015.718 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: size is now: 6.20 MB
+0015.727 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1600 files added (on-disk size: 6326.2 KB)
+0015.733 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1700 files added (on-disk size: 6326.2 KB)
+0015.738 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1800 files added (on-disk size: 6326.2 KB)
+0015.743 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 1900 files added (on-disk size: 6326.2 KB)
+0015.748 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 2000 files added (on-disk size: 6326.2 KB)
+0015.749 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 2465 files batched, 501 (2004) added so far); re-opening (prior size: 6326.2 KB)
+0018.215 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: size is now: 8.10 MB
+0018.226 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 2100 files added (on-disk size: 8333.8 KB)
+0018.230 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 2200 files added (on-disk size: 8333.8 KB)
+0018.234 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 2300 files added (on-disk size: 8333.8 KB)
+0018.238 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: 2400 files added (on-disk size: 8333.8 KB)
+0019.662 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip.tmp: size is now: 11.90 MB
+0019.880 (0) Created plugins zip (0) - 12184.5 KB in 17.7 s (687.1 KB/s) (SHA1 checksum: 500342bcff77efd24cec0c2439ed88803edc4b5a)
+0019.884 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.163 (0) Total entities for the zip file: 58 directories, 357 files (0 skipped as non-modified), 5.7 MB
+0020.166 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.169 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.172 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0021.427 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip.tmp: size is now: 4.40 MB
+0021.450 (0) Created themes zip (0) - 4482.4 KB in 1.4 s (3216 KB/s) (SHA1 checksum: 9f178e14f3df5a4f91e418b06c2f57a6d44ccb7e)
+0021.452 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0021.453 (0) Looking for candidates to back up in: /home3/playlabo/public_html/artssspot/artseeninBCN2016/wp-content/uploads
+0021.455 (0) finding files: 2017: adding to list (1)
+0021.455 (0) finding files: 2016: adding to list (2)
+0021.456 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0023.324 (0) Total entities for the zip file: 6 directories, 4237 files (0 skipped as non-modified), 245.1 MB
+0023.426 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.431 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.436 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.440 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0023.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 433 (433) added so far); re-opening (prior size: 0 KB)
+0057.546 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: size is now: 25.10 MB
+0057.553 (0) A useful amount of data was added after this amount of zip processing: 36 s (normalised: 36 s, rate: 711.2 KB/s)
+0057.650 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 500 files added (on-disk size: 25721 KB)
+0057.653 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 600 files added (on-disk size: 25721 KB)
+0057.656 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 700 files added (on-disk size: 25721 KB)
+0057.659 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 800 files added (on-disk size: 25721 KB)
+0057.660 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 399 (832) added so far); re-opening (prior size: 25721 KB)
+0084.514 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: size is now: 50.20 MB
+0084.565 (0) A useful amount of data was added after this amount of zip processing: 27.1 s (normalised: 27 s, rate: 948.2 KB/s)
+0084.568 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 900 files added (on-disk size: 51452.6 KB)
+0084.571 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1000 files added (on-disk size: 51452.6 KB)
+0084.574 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1100 files added (on-disk size: 51452.6 KB)
+0084.577 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1200 files added (on-disk size: 51452.6 KB)
+0084.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 431 (1263) added so far); re-opening (prior size: 51452.6 KB)
+0102.840 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: size is now: 75.40 MB
+0102.853 (0) A useful amount of data was added after this amount of zip processing: 18.3 s (normalised: 18.3 s, rate: 1398.3 KB/s)
+0102.856 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1300 files added (on-disk size: 77185.5 KB)
+0102.859 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1400 files added (on-disk size: 77185.5 KB)
+0102.862 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1500 files added (on-disk size: 77185.5 KB)
+0102.865 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1600 files added (on-disk size: 77185.5 KB)
+0102.869 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1700 files added (on-disk size: 77185.5 KB)
+0102.870 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 4237 files batched, 466 (1729) added so far); re-opening (prior size: 77185.5 KB)
+0121.501 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: size is now: 100.50 MB
+0121.505 (0) A useful amount of data was added after this amount of zip processing: 19 s (normalised: 18.9 s, rate: 1351.2 KB/s)
+0121.510 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1800 files added (on-disk size: 102944.7 KB)
+0121.513 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 1900 files added (on-disk size: 102944.7 KB)
+0121.516 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2000 files added (on-disk size: 102944.7 KB)
+0121.519 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2100 files added (on-disk size: 102944.7 KB)
+0121.521 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 4237 files batched, 404 (2133) added so far); re-opening (prior size: 102944.7 KB)
+0135.017 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: size is now: 125.80 MB
+0135.021 (0) A useful amount of data was added after this amount of zip processing: 14.5 s (normalised: 14.4 s, rate: 1777.5 KB/s)
+0135.025 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2200 files added (on-disk size: 128815.2 KB)
+0135.030 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2300 files added (on-disk size: 128815.2 KB)
+0135.034 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2400 files added (on-disk size: 128815.2 KB)
+0135.037 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2500 files added (on-disk size: 128815.2 KB)
+0135.039 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 426 (2559) added so far); re-opening (prior size: 128815.2 KB)
+0148.593 (0) A useful amount of data was added after this amount of zip processing: 14.1 s (normalised: 14.1 s, rate: 1818.9 KB/s)
+0148.595 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2600 files added (on-disk size: 154513.3 KB)
+0148.598 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2700 files added (on-disk size: 154513.3 KB)
+0148.601 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2800 files added (on-disk size: 154513.3 KB)
+0148.604 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 2900 files added (on-disk size: 154513.3 KB)
+0148.607 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3000 files added (on-disk size: 154513.3 KB)
+0148.608 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 462 (3021) added so far); re-opening (prior size: 154513.3 KB)
+0164.473 (0) A useful amount of data was added after this amount of zip processing: 16 s (normalised: 15.9 s, rate: 1606 KB/s)
+0164.479 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3100 files added (on-disk size: 180240.4 KB)
+0164.484 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3200 files added (on-disk size: 180240.4 KB)
+0164.489 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3300 files added (on-disk size: 180240.4 KB)
+0164.494 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3400 files added (on-disk size: 180240.4 KB)
+0164.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 442 (3463) added so far); re-opening (prior size: 180240.4 KB)
+0176.653 (0) A useful amount of data was added after this amount of zip processing: 13.1 s (normalised: 13.1 s, rate: 1949.4 KB/s)
+0176.656 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3500 files added (on-disk size: 205948.6 KB)
+0176.659 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3600 files added (on-disk size: 205948.6 KB)
+0176.662 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3700 files added (on-disk size: 205948.6 KB)
+0176.665 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3800 files added (on-disk size: 205948.6 KB)
+0176.668 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 4237 files batched, 425 (3888) added so far); re-opening (prior size: 205948.6 KB)
+0183.703 (0) A useful amount of data was added after this amount of zip processing: 7.2 s (normalised: 7.2 s, rate: 3561 KB/s)
+0183.706 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 3900 files added (on-disk size: 231642.2 KB)
+0183.711 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 4000 files added (on-disk size: 231642.2 KB)
+0183.721 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 4100 files added (on-disk size: 231642.2 KB)
+0183.729 (0) Zip: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip.tmp: 4200 files added (on-disk size: 231642.2 KB)
+0189.002 (0) Created uploads zip (0) - 251814.2 KB in 167.4 s (1503.9 KB/s) (SHA1 checksum: a82c001c7983b8655eee6228f9e1eeabfd1c2e07)
+0189.005 (0) Beginning backup of other directories found in the content directory (index: 0)
+0189.005 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0189.006 (0) Looking for candidates to back up in: /home3/playlabo/public_html/artssspot/artseeninBCN2016/wp-content
+0189.007 (0) finding files: updraft: skipping: this is the updraft directory
+0189.007 (0) finding files: install.php: adding to list (1)
+0189.008 (0) finding files: mu-plugins: adding to list (2)
+0189.009 (0) finding files: themes: skipping: this is the themes directory
+0189.010 (0) finding files: db.php: adding to list (3)
+0189.010 (0) finding files: w3tc-config: adding to list (4)
+0189.011 (0) finding files: index.php: adding to list (5)
+0189.012 (0) finding files: advanced-cache.php: adding to list (6)
+0189.012 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0189.013 (0) finding files: endurance-page-cache: adding to list (7)
+0189.014 (0) finding files: upgrade: skipping: excluded by options
+0189.015 (0) finding files: plugins: skipping: this is the plugins directory
+0189.015 (0) finding files: cache: skipping: excluded by options
+0189.016 (0) finding files: uploads: skipping: this is the uploads directory
+0189.017 (0) finding files: languages: adding to list (8)
+0189.545 (0) Total entities for the zip file: 6 directories, 62 files (0 skipped as non-modified), 5.1 MB
+0191.077 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-others.zip.tmp: size is now: 1.40 MB
+0191.121 (0) Created others zip (0) - 1449.4 KB in 2 s (725.3 KB/s) (SHA1 checksum: 9bede2e0cff5306ec64ce5cd329091fe9f14c5d3)
+0192.158 (0) Saving backup status to database (elements: 8)
+0192.160 (0) No database backup (wp) - not part of this run
+0192.161 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0192.162 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0192.163 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0192.164 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-others.zip: others: This file has not yet been successfully uploaded: will queue
+0192.164 (0) Saving backup history. Total backup size: 263.6 MB
+0192.167 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0192.449 (0) Cloud backup selection (1/1): email (last)
+0192.450 (0) Beginning dispatch of backup to remote (email)
+0192.451 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip: email to: eva.m...
+0193.268 (0) Recording as successfully uploaded: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip (0bd9c29f595544206d6c358ac116a5d0)
+0193.275 (0) Deleting local file: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-plugins.zip: OK
+0193.276 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip: email to: eva.m...
+0193.646 (0) Recording as successfully uploaded: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip (907f34c57a968ff20a1cfb93f7badf6e)
+0193.680 (0) Deleting local file: backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-themes.zip: OK
+0193.769 (0) [Warning] backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip: This backup archive is 245.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0193.770 (0) backup_2017-02-05-1341_Art_seen_in_BCN2016_224656b27910-uploads.zip: email to: eva.m...
+0001.738 (1) Opened log file at time: Sun, 05 Feb 2017 13:29:44 +0000 on http://artseeninbcn2016.artssspot.com
+0001.739 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.2 PHP: 5.6.29 (cgi-fcgi, Linux box3120.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: ca Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.2M | 31M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0001.840 (1) Free space on disk containing Updraft's temporary directory: 368348.3 MB
+0001.844 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1486301384.9, time_now=1486301384.1, diff=-1, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0001.844 (1) Rescheduling resumption 2: moving to 420 seconds from now (1486301804)
+0001.899 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+6977.592 (2) Opened log file at time: Sun, 05 Feb 2017 15:25:59 +0000 on http://artseeninbcn2016.artssspot.com
+6977.593 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.2 PHP: 5.6.29 (cgi-fcgi, Linux box3120.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: ca Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.9M | 26.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+6977.850 (2) Free space on disk containing Updraft's temporary directory: 368340.1 MB
+6978.537 (2) Backup run: resumption=2, nonce=224656b27910, begun at=1486301382 (6978s ago), job type=backup, previous check-in=0.1s
+6978.543 (2) Terminate: This backup job is already finished (1).

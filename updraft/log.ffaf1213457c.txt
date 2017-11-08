@@ -1,0 +1,111 @@
+0000.002 (0) Opened log file at time: Wed, 08 Feb 2017 11:50:06 +0000 on http://artseeninbcn2016.artssspot.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.7.2 PHP: 5.6.29 (cgi-fcgi, Linux box3120.bluehost.com 3.12.65-20161020.132.ELK6.x86_64 #1 SMP Thu Oct 20 23:36:20 CDT 2016 x86_64) MySQL: 5.6.32 WPLANG: ca Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.9M | 26.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.328 (0) Free space on disk containing Updraft's temporary directory: 368644.7 MB
+0000.332 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.333 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.370 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1486468367, seconds_ago=86239)
+0000.372 (0) Set semaphore last lock (d) time to 2017-02-08 11:50:06
+0000.373 (0) Semaphore lock (d) complete
+0000.378 (0) Backup run: resumption=0, nonce=ffaf1213457c, begun at=1486554606 (0s ago), job type=backup
+0000.380 (0) Scheduling a resumption (1) after 300 seconds (1486554906) in case this run gets aborted
+0000.493 (0) This backup run is not intended for files - skipping
+0000.494 (0) Beginning creation of database dump (WordPress DB)
+0000.553 (0) Testing: /usr/bin/mysqldump
+0000.607 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_wtyh_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */ (truncated - 1231 bytes total)
+0000.609 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.640 (0) Table wp_wtyh_options: Total expected rows (approximate): 397
+0000.688 (0) Table wp_wtyh_options: Total rows added: 408 in 0.05 seconds
+0000.691 (0) Table wp_wtyh_options: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_options.table.gz - 158.3 KB)
+0000.702 (0) Table wp_wtyh_users: Total expected rows (approximate): 249
+0000.728 (0) Table wp_wtyh_users: Total rows added: 424 in 0.02 seconds
+0000.730 (0) Table wp_wtyh_users: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_users.table.gz - 35.2 KB)
+0000.733 (0) Table wp_wtyh_usermeta: Total expected rows (approximate): 4511
+0000.977 (0) Table wp_wtyh_usermeta: Total rows added: 6537 in 0.24 seconds
+0000.979 (0) Table wp_wtyh_usermeta: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_usermeta.table.gz - 86.1 KB)
+0000.983 (0) Table wp_wtyh_commentmeta: Total expected rows (approximate): 0
+0000.986 (0) Table wp_wtyh_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.987 (0) Table wp_wtyh_commentmeta: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_commentmeta.table.gz - 0.4 KB)
+0000.990 (0) Table wp_wtyh_comments: Total expected rows (approximate): 0
+0000.992 (0) Table wp_wtyh_comments: Total rows added: 0 in 0.00 seconds
+0000.993 (0) Table wp_wtyh_comments: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_comments.table.gz - 0.5 KB)
+0000.997 (0) Table wp_wtyh_links: Total expected rows (approximate): 0
+0001.000 (0) Table wp_wtyh_links: Total rows added: 0 in 0.00 seconds
+0001.001 (0) Table wp_wtyh_links: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_links.table.gz - 0.4 KB)
+0001.004 (0) Table wp_wtyh_postmeta: Total expected rows (approximate): 2523
+0001.062 (0) Table wp_wtyh_postmeta: Total rows added: 2398 in 0.06 seconds
+0001.063 (0) Table wp_wtyh_postmeta: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_postmeta.table.gz - 36.8 KB)
+0001.066 (0) Table wp_wtyh_posts: Total expected rows (approximate): 656
+0001.132 (0) Table wp_wtyh_posts: Total rows added: 637 in 0.07 seconds
+0001.134 (0) Table wp_wtyh_posts: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_posts.table.gz - 32.2 KB)
+0001.138 (0) Table wp_wtyh_term_relationships: Total expected rows (approximate): 106
+0001.142 (0) Table wp_wtyh_term_relationships: Total rows added: 100 in 0.00 seconds
+0001.143 (0) Table wp_wtyh_term_relationships: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_term_relationships.table.gz - 0.6 KB)
+0001.146 (0) Table wp_wtyh_term_taxonomy: Total expected rows (approximate): 2
+0001.150 (0) Table wp_wtyh_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0001.151 (0) Table wp_wtyh_term_taxonomy: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_term_taxonomy.table.gz - 0.4 KB)
+0001.154 (0) Table wp_wtyh_termmeta: Total expected rows (approximate): 0
+0001.156 (0) Table wp_wtyh_termmeta: Total rows added: 0 in 0.00 seconds
+0001.157 (0) Table wp_wtyh_termmeta: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_termmeta.table.gz - 0.4 KB)
+0001.193 (0) Table wp_wtyh_terms: Total expected rows (approximate): 2
+0001.196 (0) Table wp_wtyh_terms: Total rows added: 2 in 0.00 seconds
+0001.197 (0) Table wp_wtyh_terms: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_terms.table.gz - 0.4 KB)
+0001.200 (0) Table wp_wtyh_wsluserscontacts: Total expected rows (approximate): 0
+0001.203 (0) Table wp_wtyh_wsluserscontacts: Total rows added: 0 in 0.00 seconds
+0001.204 (0) Table wp_wtyh_wsluserscontacts: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_wsluserscontacts.table.gz - 0.3 KB)
+0001.211 (0) Table wp_wtyh_wslusersprofiles: Total expected rows (approximate): 134
+0001.243 (0) Table wp_wtyh_wslusersprofiles: Total rows added: 180 in 0.03 seconds
+0001.245 (0) Table wp_wtyh_wslusersprofiles: finishing file (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_wslusersprofiles.table.gz - 15.9 KB)
+0001.353 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_options.table.gz (1/14): adding to final database dump
+0001.388 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_users.table.gz (2/14): adding to final database dump
+0001.398 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_usermeta.table.gz (3/14): adding to final database dump
+0001.452 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_commentmeta.table.gz (4/14): adding to final database dump
+0001.454 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_comments.table.gz (5/14): adding to final database dump
+0001.456 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_links.table.gz (6/14): adding to final database dump
+0001.457 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_postmeta.table.gz (7/14): adding to final database dump
+0001.494 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_posts.table.gz (8/14): adding to final database dump
+0001.514 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_term_relationships.table.gz (9/14): adding to final database dump
+0001.517 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_term_taxonomy.table.gz (10/14): adding to final database dump
+0001.518 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_termmeta.table.gz (11/14): adding to final database dump
+0001.520 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_terms.table.gz (12/14): adding to final database dump
+0001.521 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_wsluserscontacts.table.gz (13/14): adding to final database dump
+0001.522 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db-table-wp_wtyh_wslusersprofiles.table.gz (14/14): adding to final database dump
+0001.530 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz: finished writing out complete database file (336 KB)
+0001.537 (0) Total database tables backed up: 14 (backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz, size: 375648, checksum (SHA1): 29795546c2e57b8d85a0837ce7cc379af1084cc8)
+0001.607 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.608 (0) Saving backup history. Total backup size: 366.8 KB
+0001.611 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.615 (0) Cloud backup selection (1/1): email (last)
+0001.616 (0) Beginning dispatch of backup to remote (email)
+0001.635 (0) backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz: email to: eva.m...
+0002.340 (0) Recording as successfully uploaded: backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz (d7a2d9a6ff2f40158d36d6c718df45dd)
+0002.369 (0) Deleting local file: backup_2017-02-08-1250_Art_seen_in_BCN2016_ffaf1213457c-db.gz: OK
+0002.489 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.491 (0) Number of backup sets in history: 5; groups (db): 1
+0002.491 (0) Examining (for databases) backup set with group_id=0, nonce=ffaf1213457c, datestamp=1486554606 (Feb 08 2017 11:50:06)
+0002.492 (0) This backup set is the backup set just made, so will not be deleted.
+0002.493 (0) Examining (for databases) backup set with group_id=0, nonce=c4d73d0888c5, datestamp=1486468366 (Feb 07 2017 11:52:46)
+0002.493 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.494 (0) Examining (for databases) backup set with group_id=0, nonce=53810ff1db1a, datestamp=1486393265 (Feb 06 2017 15:01:05)
+0002.495 (0) 1486393265: db: this set includes a database (backup_2017-02-06-1601_Art_seen_in_BCN2016_53810ff1db1a-db.gz); db count is now 2
+0002.495 (0) 1486393265: db: over retain limit (2); will delete this database
+0002.496 (0) Delete file: backup_2017-02-06-1601_Art_seen_in_BCN2016_53810ff1db1a-db.gz, service=email
+0002.497 (0) This backup set is now empty; will remove from history
+0002.498 (0) Deleting log file (log.53810ff1db1a.txt)
+0002.499 (0) Examining (for databases) backup set with group_id=0, nonce=224656b27910, datestamp=1486298489 (Feb 05 2017 12:41:29)
+0002.499 (0) Examining (for databases) backup set with group_id=0, nonce=c73f46944103, datestamp=1485689903 (Jan 29 2017 11:38:23)
+0002.500 (0) Number of backup sets in history: 4; groups (files): 1
+0002.501 (0) Examining (for files) backup set with nonce=ffaf1213457c, datestamp=1486554606 (Feb 08 2017 11:50:06)
+0002.501 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.502 (0) Examining (for files) backup set with nonce=c4d73d0888c5, datestamp=1486468366 (Feb 07 2017 11:52:46)
+0002.503 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.503 (0) Examining (for files) backup set with nonce=224656b27910, datestamp=1486298489 (Feb 05 2017 12:41:29)
+0002.504 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0002.505 (0) Examining (for files) backup set with nonce=c73f46944103, datestamp=1485689903 (Jan 29 2017 11:38:23)
+0002.505 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0002.506 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0002.511 (0) Resume backup (ffaf1213457c, 0): finish run
+0002.513 (0) Decremented the semaphore (d) by 1
+0002.514 (0) Semaphore (d) unlocked
+0002.515 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0002.678 (0) No email will/can be sent - the user has not configured an email address.
+0002.679 (0) The backup apparently succeeded and is now complete

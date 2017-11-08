@@ -1,0 +1,41 @@
+0000.158 () Opened log file at time: Sun, 01 Jan 2017 22:20:15 +0000 on http://bcn2016.local
+0000.158 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.30 WP: 4.6.1 PHP: 5.6.21 (apache2handler, Windows NT DESKTOP-SU9I75C 6.2 build 9200 (Windows 8 Home Premium Edition) i586) MySQL: 5.5.5 WPLANG: ca Server: Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.1M | 24M) multisite: N openssl: OpenSSL 1.0.1s  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.159 () Free space on disk containing Updraft's temporary directory: 351269.4 MB
+0000.367 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.446 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.634 () Entity: db
+0000.634 () restore_backup(backup_file=backup_2017-01-01-1237_Art_seen_in_BCN2016_7fc84422a131-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.636 () Unpacking backup... (backup_2017-01-01-1237_Art_seen_in_BCN2016_7fc84422a131-db.gz, 0.2 Mb)
+0000.643 () Database successfully unpacked
+0000.645 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.645 () Using direct MySQL access; value of use_mysqli is: 1
+0001.502 () Max packet size: 32 MB
+0001.502 () Entering maintenance mode
+0001.502 () S'està habilitant el mode de manteniment&#8230;
+0001.507 () Backup of: http://bcn2016.local
+0001.508 () Content URL: http://bcn2016.local/wp-content
+0001.508 () Uploads URL: http://bcn2016.local/wp-content/uploads
+0001.509 () Old table prefix: wp_
+0001.509 () Site information: multisite=0
+0001.512 () New table prefix: wp_
+0001.716 () Processing table (InnoDB): wp_options
+0005.140 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0005.499 () Processing table (InnoDB): wp_users
+0006.538 () Processing table (InnoDB): wp_usermeta
+0007.472 () Processing table (InnoDB): wp_commentmeta
+0008.220 () Processing table (InnoDB): wp_comments
+0009.239 () Processing table (InnoDB): wp_links
+0010.215 () Processing table (InnoDB): wp_postmeta
+0011.877 () Processing table (InnoDB): wp_posts
+0013.372 () Processing table (InnoDB): wp_term_relationships
+0014.506 () Processing table (InnoDB): wp_term_taxonomy
+0015.604 () Processing table (InnoDB): wp_termmeta
+0017.213 () Processing table (InnoDB): wp_terms
+0018.553 () Processing table (InnoDB): wp_wsluserscontacts
+0020.315 () Processing table (InnoDB): wp_wslusersprofiles
+0021.582 () Unlocking database and leaving maintenance mode
+0021.582 () S'està deshabilitant el mode de manteniment&#8230;
+0021.584 () Finished: lines processed: 46 in 20.94 seconds
+0021.586 () Cleaning up rubbish...
+0023.358 () Restore successful!
+0023.358 () Restore successful
