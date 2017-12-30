@@ -270,7 +270,9 @@ function viewmeviewvotestore(postId, vote)
 
 	success:function(data, textStatus, XMLHttpRequest){
 
-		console.log('comment added, post view updated, user meta updated: '+postId);
+		console.log('comment added: ' + vote + ', post view updated, user meta updated: '+ postId);
+
+		jQuery(document).trigger('asi.votesaved');
 
 		},
 
